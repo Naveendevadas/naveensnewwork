@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    background-color: rgb(33, 25, 34);
+    padding:20px 10px 20px 10px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.nav-text{
+    margin: 20px;
+    color: white;
+    
+}
+.img{
+    width: 400px;
+    height: auto;
+}
+.text{
+    background-color: black;
+    text-align: center;
+    color: white;
+}

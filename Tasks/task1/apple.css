@@ -4,7 +4,7 @@
 }
 .container{
     text-align: center;
-    background-color: rgb(33, 25, 34);
+    background-color: rgb(30, 29, 31);
     padding:10px 3px 10px 3px;
 }
 .nav-text{
@@ -27,10 +27,12 @@
 .search-box{
     font-size: 40px;
     padding: 3px;
+    color: white;
 }
 .search{
     font-size: x-large;
     margin: 3px;
+    color: white;
 }
 .btn{
     border-radius: 30px;
@@ -43,4 +45,21 @@
     margin: 30px 30px 30px 10px;
     padding: 15px;
     font-size: 20px;
+}
+.img-box{
+    width: 45vw;
+    height: 50vh;
+    display: inline-block;
+    background-image: url(../../Iphone13.jpeg);
+    background-size: cover;
+}
+   
+.map{
+    margin-top: 20px;
+    text-align: center;
+}
+.map-box{
+    position: relative;
+    top: 100px;
+    text-align:center;
 }

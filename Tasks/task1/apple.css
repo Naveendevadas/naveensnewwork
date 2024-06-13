@@ -4,8 +4,10 @@
 }
 .container{
     text-align: center;
-    background-color: rgb(30, 29, 31);
-    padding:10px 3px 10px 3px;
+    background-color: rgb(0, 0, 0);
+    padding:15px 3px 10px 3px;
+    position: sticky;
+    top: 0px;
 }
 .nav-text{
     margin: 10px;
@@ -30,8 +32,6 @@
     color: white;
 }
 .search-box-b{
-    font-size: 40px;
-    padding: 3px;
     color:black;
 }
 .search{
@@ -40,8 +40,6 @@
     color: white;
 }
 .search-b{
-    font-size: x-large;
-    margin: 3px;
     color:black;
 }
 .btn{
@@ -61,37 +59,34 @@
     margin-top: 20px;
     text-align: center;
 }
-.img-boxa{
+.img-box{
     width: 45vw;
     height: 50vh;
     display: inline-block;
-    background-image: url(../../Iphone13.jpeg);
+    /* background-image: url(../../ipad.jpeg);
     background-size: cover;
-    /* padding-right: 30px; */
-    margin-right: 20px;
+    margin-right: 20px; */
 }
-.img-boxb{
-    width: 45vw;
-    height: 50vh;
-    display: inline-block;
+
+.img-a{
+    background-image: url(../../ipad.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.img-b{
+    
     background-image: url(../../airpod.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
-    /* padding-left: 30px; */
     margin-left: 20px;
 }
-.img-boxc{
-    width: 45vw;
-    height: 50vh;
-    display: inline-block;
+.img-c{
     background-image: url(../../iwatch.jpeg);
     background-size:contain;
     background-repeat: no-repeat;
 }
-.img-boxd{
-    width: 45vw;
-    height: 50vh;
-    display: inline-block;
+.img-d{
     background-image: url(../../iwatch.jpeg);
     background-size: cover;
 }
@@ -106,7 +101,6 @@
     position: relative;
     top: 170px;
     left: 170px;
-    text-align:center;
 }
 .map-box-c{
     position: relative;

@@ -38,12 +38,18 @@ a{
 .search-box-b{
     color:black;
 }
+.search-box-c{
+    color:black;
+}
 .search{
     font-size: x-large;
     margin: 3px;
     color: white;
 }
 .search-b{
+    color:black;
+}
+.search-c{
     color:black;
 }
 .btn{
@@ -59,37 +65,43 @@ a{
     font-size: 20px;
 }
 .map{
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
     display: flex;   
 }
 .img-box{
     width: 50vw;
     height: 50vh;
-    margin: 20px;  
+    margin: 15px;  
 } 
 .img-a{
     background-image: url(../../ipad.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
+    background-color: black;
 }
 .img-b{ 
     background-image: url(../../airpod.jpeg);
     background-size: contain;
     background-repeat: no-repeat; 
+    background-color: white;
 }
 .img-c{
     background-image: url(../../iwatch.jpeg);
     background-size:contain;
     background-repeat: no-repeat;
+    padding-left: 5px;
 }
 .img-d{
-    background-image: url(../../iwatch.jpeg);
-    background-size: cover;
+    background-image: url(../../Apple\ Vision\ Pro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 .map-a{
     position: relative;
-    top: 250px;
+    top: 200px;
+    left: 120px;
     text-align:center;
 }
 .map-b{
@@ -99,11 +111,27 @@ a{
 }
 .map-c{
     position: relative;
-    top: 100px;
+    top: 150px;
+    left: 120px;
     text-align:center;
 }
 .map-d{
     position: relative;
-    top: 100px;
+    top: 200px;
+    left: 170px;
     text-align:center;
 } 
+.blockchain-1{
+    display: flex;
+    width: 75vw;
+    height: 65vh;
+    padding: 10px;
+    margin: 5px;
+    justify-content: space-around;
+}
+.blockchain{
+    display: flex;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+

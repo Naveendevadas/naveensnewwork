@@ -1,22 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-.container{
-    text-align: center;
-    background-color: rgb(41, 40, 40);
-    padding:15px 3px 10px 3px;
-    position: sticky;
-    top: 0px;
+nav{
+    background-color: rgb(41,40,40);
+    height: 50px;
 }
-a{
+nav .container{
+    margin:0 100px auto;
+    max-width: 900px;
+/* } */
+/* nav .navbar{ */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px 0px 13rem;
+}
+nav ul{
+    display: flex;
+    color: white;
+}
+nav ul li{
+    margin: 3px 10px 0px 10px;
+    list-style: none;
+}
+nav ul li a{
     color: white;
     text-decoration: none;
+    transition: all 300ms;
 }
-.nav-text{
-    margin: 10px;
-    color: rgb(197, 193, 193);
-    
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo{
+    padding: 0px 3px 0px 17px;
 }
 .img{
     width: 400px;
@@ -35,22 +56,18 @@ a{
     padding: 3px;
     color: white;
 }
-.search-box-b{
+.search-box-black{
     color:black;
 }
-.search-box-c{
-    color:black;
+.searching{
+    font-size: x-large;
+    margin: 3px;
+color: black;
 }
 .search{
     font-size: x-large;
     margin: 3px;
     color: white;
-}
-.search-b{
-    color:black;
-}
-.search-c{
-    color:black;
 }
 .btn{
     border-radius: 30px;
@@ -79,28 +96,32 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
+    border-radius: 20px;
 }
 .img-b{ 
     background-image: url(../../airpod.jpeg);
     background-size: contain;
     background-repeat: no-repeat; 
     background-color: white;
+    border-radius: 20px;
 }
 .img-c{
     background-image: url(../../iwatch.jpeg);
     background-size:contain;
     background-repeat: no-repeat;
     padding-left: 5px;
+    border-radius: 20px;
 }
 .img-d{
     background-image: url(../../Apple\ Vision\ Pro.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
+    border-radius: 20px;
 }
 .map-a{
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 120px;
     text-align:center;
 }
@@ -117,7 +138,7 @@ a{
 }
 .map-d{
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 170px;
     text-align:center;
 } 
@@ -126,12 +147,168 @@ a{
     width: 75vw;
     height: 65vh;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     justify-content: space-around;
+    padding-left: 10px;
 }
 .blockchain{
     display: flex;
     padding: 10px;
     /* justify-content: space-between; */
 }
+.text-3-1{
+    color: black;
+    justify-content: space-between;
+    padding:50px ;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+}
 
+
+.text-3{
+    background-color:white;
+    text-align:center;
+    color: black;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom:  20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.macbook{
+    text-align: start;
+    font-size: 90px;
+}
+.para{
+    background-color: whitesmoke;
+    color: darkgrey;
+}
+.para p{
+    align-items: center;
+    padding: 22px 10rem 22px 10rem;
+    margin: 10px 30px 10px 30px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+.para .unorderd{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10rem 10px 10rem;
+    margin: 10px 30px 10px 30px;
+    border-top: 0.5px  black;
+    
+}
+.unorderd li{
+    list-style: none;
+}
+.macbook-pro{
+    background-image: url(/work2/Apple\ MacBook\ Pro\ 14\ 2023\ review_\ The\ M2\ Pro\ is\ slowed\ down\ in\ the\ small\ MacBook\ Pro.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:90vw ;
+    height:100vh ;
+    border-radius: 25px;
+    margin:70px auto;
+}
+.macbook-pro-1{
+    position: relative;
+    top: 400px;
+}
+.macbook-1{
+    font-size: 90px;
+    color: white;
+}
+
+/* ipad */
+
+.ipad-pro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ipad-pro-1{
+    background-image: url(../../ipad-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.ipad-pro-2{
+    background-image: url(../../ipad-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+
+}
+.ipad-pro-3{
+    background-image: url(../../ipad-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.ipad-pro-4{
+    background-image: url(../../ipad-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+
+}
+.ipad-pro-series{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    text-align: start;
+}
+.products{
+    padding-bottom: 8px;
+}
+
+
+/* store */
+.store{
+
+}
+.store-1{    
+    background-image: url(../../work2/iphone15.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 30px;
+}
+.store-2{
+    background-image: url(../../work2/store-mac.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.store-3{
+    background-image: url(../../work2/store1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.store-4{
+    background-image: url(../../work2/ipone-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}

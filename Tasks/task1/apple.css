@@ -90,7 +90,7 @@ color: black;
     border-radius: 20px;
 }
 .img-b{ 
-    background-image: url(../../airpod.jpeg);
+    background-image: url(../../work2/airpodimages/airpod.jpeg);
     background-size: contain;
     background-repeat: no-repeat; 
     background-color: white;
@@ -192,7 +192,7 @@ color: black;
     list-style: none;
 }
 .macbook-pro{
-    background-image: url(/work2/Apple\ MacBook\ Pro\ 14\ 2023\ review_\ The\ M2\ Pro\ is\ slowed\ down\ in\ the\ small\ MacBook\ Pro.jfif);
+    background-image: url(/work2/work2/);
     background-size: cover;
     background-repeat: no-repeat;
     width:90vw ;

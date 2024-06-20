@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 50px;
+    max-width: 100%;
+    background-color: #333333;
+    align-content: center;
+}
+nav .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 270px 0px 270px;
+    /* font-size:; */
+}
+nav .container a{
+    color: white;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+    align-content: center;
+}
+nav .container .logo a:hover{
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.logo{
+    padding: 6px 3px 6px 3px;
+}
+.macbook{
+    text-align: start;
+    font-size: 90px;
+}
+.ipad-pro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ipad-pro-1{
+    background-image: url(../../ipad-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.ipad-pro-2{
+    background-image: url(../../ipad-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+
+}
+.ipad-pro-3{
+    background-image: url(../../ipad-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+.ipad-pro-4{
+    background-image: url(../../ipad-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 22vw;
+    height: 80vh;
+    border-radius: 20px;
+
+}
+.ipad-pro-series{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    text-align: start;
+}
+.products{
+    padding-bottom: 8px;
+}
+

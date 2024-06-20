@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+nav{
+    background-color:#575757;  
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    color: white;
+    display: flex; 
+}
+.left{
+   
+}
+.left select{
+   
+    background-color:#575757;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-right: 1px solid white;
+}
+.right
+.right-sect{
+    align-content: center;
+    justify-content: center;
+
+}

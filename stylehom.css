@@ -8,25 +8,32 @@ nav{
     height: 50px;
     display: flex;
     justify-content: space-between;
+    padding :2px 5px 2px 5px;
 }
 .container{
     color: white;
-    display: flex; 
-}
-.left{
-   
+    display: flex;
+    align-items: center;
+    margin: 5px 8px auto;
 }
 .left select{
-   
     background-color:#575757;
+    color: white;
     outline: none;
     padding: 5px 10px 5px 10px;
+    margin-right: 5px 5px auto;
     border: none;
     border-right: 1px solid white;
 }
-.right
 .right-sect{
     align-content: center;
     justify-content: center;
+    border-right: 2px solid white;
+    padding:3px 8px 3px 8px;
 
+}
+.right img {
+    margin:4px 4px 0px 4px;
+    width: 30px;
+    height: 30px;
 }

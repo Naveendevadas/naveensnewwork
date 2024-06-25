@@ -4,7 +4,7 @@
     padding: 0;
 }
 nav{
-    height: 50px;
+    height: 40px;
     max-width: 100%;
     background-color: #333333;
     align-content: center;
@@ -12,11 +12,10 @@ nav{
 nav .container{
     display: flex;
     justify-content: space-evenly;
-    padding: 0px 270px 0px 270px;
-    /* font-size:; */
+    padding: 0px 200px 0px 200px;
 }
 nav .container a{
-    color: white;
+    color: rgb(208, 207, 207);
     text-decoration: none;
     transition: all 300ms ease-in-out;
     align-content: center;
@@ -28,8 +27,18 @@ nav .container .logo a:hover{
     border-radius: 5px;
 }
 .logo{
-    padding: 6px 3px 6px 3px;
+    padding: 6px 8px 6px 8px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+
 }
+    @media(max-width: 999px){
+        nav .container{
+            padding:0px 150px 0px 150px;
+        }
+    }        
+    
+        
 .img{
     width: 400px;
     height: auto;
@@ -40,9 +49,10 @@ nav .container .logo a:hover{
     color: white;
     padding: 50px;
     margin-bottom:  20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .search-box{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     padding: 3px;
     color: white;
@@ -51,18 +61,20 @@ nav .container .logo a:hover{
     color:black;
 }
 .searching{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: x-large;
     margin: 3px;
 color: black;
 }
 .search{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: x-large;
     margin: 3px;
     color: white;
 }
 .btn{
     border-radius: 30px;
-    margin: 30px 10px 30px 30px;
+    margin: 30px 10px 30px 10px;
     padding: 15px;
     font-size: 20px;
 }
@@ -83,28 +95,28 @@ color: black;
     margin: 15px;  
 } 
 .img-a{
-    background-image: url(../../ipad.jpeg);
+    background-image: url(../../ipadimages/ipad.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
     border-radius: 20px;
 }
 .img-b{ 
-    background-image: url(../../work2/airpodimages/airpod.jpeg);
+    background-image: url(../../airpodimages/airpod.jpeg);
     background-size: contain;
     background-repeat: no-repeat; 
     background-color: white;
     border-radius: 20px;
 }
 .img-c{
-    background-image: url(../../iwatch.jpeg);
+    background-image: url(../../iwatchimages/iwatch.jpeg);
     background-size:contain;
     background-repeat: no-repeat;
     padding-left: 5px;
     border-radius: 20px;
 }
 .img-d{
-    background-image: url(../../Apple\ Vision\ Pro.jpeg);
+    background-image: url(../../visionimags/Apple\ Vision\ Pro.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
@@ -145,7 +157,6 @@ color: black;
 .blockchain{
     display: flex;
     padding: 10px;
-    /* justify-content: space-between; */
 }
 .text-3-1{
     color: black;
@@ -211,92 +222,5 @@ color: black;
 
 /* ipad */
 
-.ipad-pro{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-}
-.ipad-pro-1{
-    background-image: url(../../ipad-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-}
-.ipad-pro-2{
-    background-image: url(../../ipad-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-
-}
-.ipad-pro-3{
-    background-image: url(../../ipad-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-}
-.ipad-pro-4{
-    background-image: url(../../ipad-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-
-}
-.ipad-pro-series{
-    display: flex;
-    flex-direction: column;
-    color: white;
-    position: relative;
-    top: 25px;
-    left: 15px;
-    text-align: start;
-}
-.products{
-    padding-bottom: 8px;
-}
-
-
 /* store */
-.store{
-
-}
-.store-1{    
-    background-image: url(../../work2/iphone15.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 30px;
-}
-.store-2{
-    background-image: url(../../work2/store-mac.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-}
-.store-3{
-    background-image: url(../../work2/store1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-}
-.store-4{
-    background-image: url(../../work2/ipone-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 22vw;
-    height: 80vh;
-    border-radius: 20px;
-}
+.

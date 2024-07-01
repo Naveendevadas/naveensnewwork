@@ -21,7 +21,6 @@ nav{
     color: white;
     outline: none;
     padding: 5px 10px 5px 10px;
-    margin-right: 5px 5px auto;
     border: none;
     border-right: 1px solid white;
 }
@@ -36,4 +35,10 @@ nav{
     margin:4px 4px 0px 4px;
     width: 30px;
     height: 30px;
+}
+.next{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh
 }

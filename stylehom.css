@@ -4,6 +4,7 @@
    
 }
 nav{
+    width: 100%;
     background-color:#575757;  
     height: 50px;
     display: flex;
@@ -16,6 +17,7 @@ nav{
     align-items: center;
     margin: 5px 8px auto;
 }
+
 .left select{
     background-color:#575757;
     color: white;
@@ -27,7 +29,7 @@ nav{
 .right-sect{
     align-content: center;
     justify-content: center;
-    border-right: 2px solid white;
+    border-right: 1px solid white;
     padding:3px 8px 3px 8px;
 
 }
@@ -36,9 +38,38 @@ nav{
     width: 30px;
     height: 30px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navbar img{
+    width: 140px;
+    padding:8px 5vw 8px 7vw;
+}
+
+
 .next{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 5vh
+}
+
+.section-3{
+    margin-top:  50px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 243, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
